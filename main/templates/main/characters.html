@@ -1,0 +1,44 @@
+{% extends "main/base.html" %}
+
+{% load static %}
+
+{% block content %}
+<div class="maindiv">
+    <div class="left">
+        <div class="character">Мелиса</div>
+        <div class="character">Василиск</div>
+        <div class="character">Перегар</div>
+        <div class="character">Алик</div>
+        <div class="character">Ки Са</div>
+        <div class="character">Горелый Овощ</div>
+    </div>
+    <div class="right">
+        <div class="image_name">
+            <img src="{% static "deps/image/melisa.jpg" %}" height="150px" width="150px">
+            <p1>Мелиса</p1>
+        </div>
+        <div class="main_infromation">
+            <div class="main_information_item">
+                <p1>Класс : Бард</p1>
+                <button class="main_information_item_button"></button>
+            </div>
+            <div class="main_information_item">
+                <p1>Уровень : 5</p1>
+                <button class="main_information_item_button"></button>
+            </div>
+            <div class="main_information_item">
+                <p1>Опыт : 1700</p1>
+                <button class="main_information_item_button"></button>
+            </div>
+            <div class="main_information_item">
+                <p1>Максимально ХП : 50</p1>
+                <button class="main_information_item_button"></button>
+            </div>
+            <div class="main_information_item">
+                <p1>Текущее ХП : 50</p1>
+                <button class="main_information_item_button"></button>
+            </div>
+        </div>  
+        <div class="optional_information"></div>
+    </div>
+{% endblock  %}

@@ -1,0 +1,51 @@
+.maindiv {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("background.jpg");
+}
+
+.character {
+    margin: 20px;
+    padding: 20px;
+
+    position: static;
+
+    height: 150px;
+    width: 200px;
+
+    background-color: darkslategray;
+}
+.left {
+    position: absolute;
+    float: left;
+}
+.right {
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 20px;
+    padding: 20px;
+    height: 700px;
+    width: 500px;
+
+    border: 2px solid;
+    border-color: darkslategray;
+}
+.image_name {
+    height: 170px;
+    width: 150px;
+
+    float: left;
+}
+.main_infromation {
+    width: 230px;
+    height: 120px;
+
+    float: right;
+}
+.main_information_item_button {
+    width: 15px;
+    height: 15px;
+    border: none;
+    background-image: url("change.png");
+    background-size: cover;
+}
